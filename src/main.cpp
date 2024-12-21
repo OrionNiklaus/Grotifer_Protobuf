@@ -3,8 +3,8 @@
 #include "pb_decode.h"
 #include "messages.pb.h" // Include the Nanopb-generated header
 
-const char* ssid = "BooBooBunnz";
-const char* password = "redbird75";
+const char* ssid = "";
+const char* password = "";
 const char* host = "10.0.0.74";
 const uint16_t port = 3000;
 
