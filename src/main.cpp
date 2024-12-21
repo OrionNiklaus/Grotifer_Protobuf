@@ -3,9 +3,11 @@
 #include "pb_decode.h"
 #include "messages.pb.h" // Include the Nanopb-generated header
 
-const char* ssid = "";
-const char* password = "";
-const char* host = "10.0.0.74";
+
+// ************* INPUT SSID, PW, HOST IP **************
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
+const char* host = "HOST IP";
 const uint16_t port = 3000;
 
 WiFiClient client;
